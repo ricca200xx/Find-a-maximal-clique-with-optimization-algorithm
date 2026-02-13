@@ -6,7 +6,7 @@ The MCP is a well-known NP-hard problem that involves finding the largest comple
 
 ---
 
-## 📖 Theoretical Approach and Formulation
+## Theoretical Approach and Formulation
 
 The approach is based on the Motzkin-Straus formulation, which links the clique problem to a quadratic program. To ensure that the local maxima of the objective function correspond to actual maximal cliques, a regularization term has been added.
 
@@ -28,10 +28,12 @@ Two different regularization functions have been implemented and compared:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
+├── .DS_Store
+├── .gitattributes
 ├── .gitignore
 ├── README.md
 ├── final_project.ipynb
@@ -45,13 +47,13 @@ Two different regularization functions have been implemented and compared:
 
 ---
 
-## ⚙️ Prerequisites and Installation
+## Prerequisites and Installation
 
 Ensure you have **Python 3.x** installed.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/repository-name.git
+    git clone https://github.com/ricca200xx/Find-a-maximal-clique-with-optimization-algorithm.git
     cd Find-a-maximal-clique-with-optimization-algorithm
     ```
 
@@ -71,7 +73,7 @@ Ensure you have **Python 3.x** installed.
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 The entire project can be executed through the Jupyter Notebook **`final_project.ipynb`**.
 
@@ -88,7 +90,7 @@ The entire project can be executed through the Jupyter Notebook **`final_project
 
 ---
 
-## 🤖 Implemented Algorithms
+## Implemented Algorithms
 
 Four first-order optimization algorithms were implemented, each tested with three different step-size strategies.
 
@@ -105,7 +107,7 @@ Four first-order optimization algorithms were implemented, each tested with thre
 
 ---
 
-## 📈 Results and Analysis
+## Results and Analysis
 
 The algorithms were evaluated on benchmark graphs from the **DIMACS challenge**. The analysis yielded the following insights:
 
